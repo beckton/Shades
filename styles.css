@@ -1,0 +1,92 @@
+/* 
+	Sally Shady's Shady Shades main web page
+    Filename: shades.html
+      
+    Author:   Bec Braughton
+    Date:     2.24.17
+	Shady Shade's Sunglasses Due 2.27.17
+ */
+
+body, h1, p, article, aside, footer {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+body {
+   background-color: /*champaign*/#F7E7CE;
+}
+
+header {
+   background-color: /*sandstone*/#786D5F;
+   text-align: center;
+   font-size: 2em;
+   color: /*lapis*/ #15317E;
+   font-variant: small-caps;
+   font-family: times new roman;
+}
+
+header p {
+	color: /*champaign*/#F7E7CE;
+	font-size: .90em;
+}
+
+p {
+	color: /*sandstone*/#786D5F;
+}
+
+img {
+	float: left;
+	padding-right: 15px;
+	width: 50%;
+}
+
+article {
+   background-color: /*champaign*/#F7E7CE;
+   color: /*lapis*/ #15317E;
+   padding-left: 50px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   float: right;
+   width: 50%;
+}
+
+article p {
+	color: /*lapis*/ #15317E;
+	text-align: left;
+}
+
+aside {
+	/*red like container*/
+	border: 3px dotted navy;
+	background-color: /*champaign*/#F7E7CE;
+	text-align: center;
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-top: 44px;
+	margin-right: 33px;
+	float: right;
+	width: 30%
+}
+
+footer {
+	border: 2px dotted /*mocha*/ #493D26;
+	background-color: /*sandstone*/#786D5F;
+	text-align: center;
+	font-size: .90em;
+	clear: both;
+}
+
+footer p {
+	color: /*champaign*/#F7E7CE;
+	background-color: /*sandstone*/#786D5F;
+}
+
+.container {
+   width: 1000px;
+   background-color: /*champaign*/#F7E7CE;
+   margin: auto;
+}
+
